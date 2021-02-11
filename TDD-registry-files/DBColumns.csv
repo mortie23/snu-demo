@@ -1,0 +1,16 @@
+__SUPER_CHANNEL__,reg_key,Registry Key,string,128,0,0
+__SUPER_CHANNEL__,reg_value,Registry Value,string,128,1,0
+FACTS,TABLENAME,Registered Fact Table,string,128,0,0
+CLASSIFICATIONS,TABLENAME,Registered Classification,string,128,0,0
+CLASSIFICATIONS,VALUECODE,Code for Display,string,128,1,0
+CLASSIFICATIONS,DISPLAYNAME,Name for Display,string,128,2,0
+MEASURES,COLUMNNAME,Registered Measure Column,string,128,0,0
+MEASURES,TABLENAME,Measure Column's Table,string,128,1,0
+DATABASE_LABEL,LABEL,Database Label,string,128,0,0
+COLUMN_LABEL,TABLENAME,TableName,string,128,0,0
+COLUMN_LABEL,COLUMNNAME,ColumnName,string,128,1,0
+COLUMN_LABEL,LABEL,Label,string,128,2,0
+COUNT_DEFAULT,TABLENAME,TableName,string,128,0,0
+COUNT_DEFAULT,COLUMNNAME,ColumnName,string,128,1,0
+TABLE_LABEL, TABLENAME, TableName,string,128,0,0
+TABLE_LABEL, LABEL, Label, string,128,1,0

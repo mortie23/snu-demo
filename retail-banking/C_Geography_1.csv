@@ -1,0 +1,204 @@
+Code,Name,FK_SD
+-1,Unknown,-1
+10505,Inner Sydney,105
+10510,Eastern Suburbs,105
+10515,St George-Sutherland,105
+10520,Canterbury-Bankstown,105
+10525,Fairfield-Liverpool,105
+10530,Outer South Western Sydney,105
+10535,Inner Western Sydney,105
+10540,Central Western Sydney,105
+10545,Outer Western Sydney,105
+10553,Blacktown,105
+10555,Lower Northern Sydney,105
+10560,Central Northern Sydney,105
+10565,Northern Beaches,105
+10570,Gosford-Wyong,105
+11005,Newcastle,110
+11010,Hunter SD Bal,110
+11505,Wollongong,115
+11507,Nowra-Bomaderry,115
+11510,Illawarra SD Bal,115
+12005,Tweed Heads,120
+12010,Richmond-Tweed SD Bal,120
+12501,Coffs Harbour,125
+12503,Port Macquarie,125
+12505,Clarence (excl. Coffs Harbour),125
+12510,Hastings (excl. Port Macquarie),125
+13005,Tamworth,130
+13010,Northern Slopes (excl. Tamworth),130
+13015,Northern Tablelands,130
+13020,North Central Plain,130
+13505,Central Macquarie (excl. Dubbo),135
+13510,Macquarie-Barwon,135
+13515,Upper Darling,135
+14005,Bathurst-Orange,140
+14010,Central Tablelands (excl. Bathurst-Orange),140
+14015,Lachlan,140
+14505,Queanbeyan,145
+14510,Southern Tablelands (excl. Queanbeyan),145
+14515,Lower South Coast,145
+14520,Snowy,145
+15005,Wagga Wagga,150
+15010,Central Murrumbidgee (excl. Wagga Wagga),150
+15015,Lower Murrumbidgee,150
+15505,Albury,155
+15510,Upper Murray (excl. Albury),155
+15515,Central Murray,155
+15520,Murray-Darling,155
+16010,Far West,160
+18501,Off-Shore Areas & Migratory,185
+20505,Inner Melbourne,205
+20510,Western Melbourne,205
+20520,Melton-Wyndham,205
+20525,Moreland City,205
+20530,Northern Middle Melbourne,205
+20535,Hume City,205
+20540,Northern Outer Melbourne,205
+20545,Boroondara City,205
+20550,Eastern Middle Melbourne,205
+20555,Eastern Outer Melbourne,205
+20560,Yarra Ranges Shire Part A,205
+20565,Southern Melbourne,205
+20575,Greater Dandenong City,205
+20580,South Eastern Outer Melbourne,205
+20585,Frankston City,205
+20590,Mornington Peninsula Shire,205
+21005,Greater Geelong City Part A,210
+21010,East Barwon,210
+21015,West Barwon,210
+21501,Warrnambool City,215
+21505,Hopkins,215
+21510,Glenelg,215
+22005,Ballarat City,220
+22010,East Central Highlands,220
+22015,West Central Highlands,220
+22505,South Wimmera,225
+22510,North Wimmera,225
+23005,Mildura Rural City Part A,230
+23010,West Mallee,230
+23015,East Mallee,230
+23505,Greater Bendigo City Part A,235
+23510,North Loddon,235
+23520,South Loddon,235
+24005,Greater Shepparton City Part A,240
+24010,North Goulburn,240
+24015,South Goulburn,240
+24020,South West Goulburn,240
+24505,Wodonga,245
+24510,West Ovens-Murray,245
+24515,East Ovens-Murray,245
+25005,East Gippsland Shire,250
+25015,Wellington Shire,250
+25505,La Trobe Valley,255
+25510,West Gippsland,255
+25520,South Gippsland,255
+28501,Off-Shore Areas & Migratory,285
+30505,Brisbane City,305
+30510,Gold Coast City Part A,305
+30515,Beaudesert Shire Part A,305
+30520,Caboolture Shire Part A,305
+30525,Ipswich City (Part in BSD),305
+30530,Logan City,305
+30540,Pine Rivers Shire,305
+30545,Redcliffe City,305
+30550,Redland Shire,305
+31005,Gold Coast City Part B,310
+31015,Sunshine Coast,310
+31020,Moreton SD Bal,310
+31505,Bundaberg,315
+31507,Hervey Bay City Part A,315
+31510,Wide Bay-Burnett SD Bal,315
+32001,Toowoomba,320
+32005,Darling Downs SD Bal,320
+32505,South West,325
+33010,Gladstone,330
+33015,Fitzroy SD Bal,330
+33505,Central West,335
+34005,Mackay City Part A,340
+34010,Mackay SD Bal,340
+34505,Townsville City Part A,345
+34510,Thuringowa City Part A,345
+34515,Northern SD Bal,345
+35005,Cairns City Part A,350
+35010,Far North SD Bal,350
+35505,North West,355
+38501,Off-Shore Areas & Migratory,385
+40505,Northern Adelaide,405
+40510,Western Adelaide,405
+40515,Eastern Adelaide,405
+40520,Southern Adelaide,405
+41005,Barossa,410
+41010,Kangaroo Island,410
+41015,Mt Lofty Ranges,410
+41020,Fleurieu,410
+41505,Yorke,415
+41510,Lower North,415
+42005,Riverland,420
+42010,Murray Mallee,420
+42505,Upper South East,425
+42510,Lower South East,425
+43005,Lincoln,430
+43010,West Coast,430
+43505,Whyalla,435
+43515,Pirie,435
+43520,Flinders Ranges,435
+43525,Far North,435
+48501,Off-Shore Areas & Migratory,485
+50505,Central Metropolitan,505
+50510,East Metropolitan,505
+50515,North Metropolitan,505
+50520,South West Metropolitan,505
+50525,South East Metropolitan,505
+51001,Mandurah,510
+51003,Bunbury,510
+51010,Preston,510
+51015,Vasse,510
+51020,Blackwood,510
+51505,Pallinup,515
+51510,King,515
+52005,Hotham,520
+52010,Lakes,520
+52505,Moore,525
+52510,Avon,525
+52515,Campion,525
+53001,Kalgoorlie/Boulder City Part A,530
+53005,Lefroy,530
+53010,Johnston,530
+53503,Geraldton,535
+53505,Gascoyne,535
+53510,Carnegie,535
+53515,Greenough River,535
+54005,De Grey,540
+54010,Fortescue,540
+54505,Ord,545
+54510,Fitzroy,545
+58501,Off-Shore Areas & Migratory,585
+60505,Greater Hobart,605
+61005,Southern,610
+61505,Greater Launceston,615
+61510,Central North,615
+61515,North Eastern,615
+62005,Burnie-Devonport,620
+62010,North Western Rural,620
+62015,Lyell,620
+68501,Off-Shore Areas & Migratory,685
+70505,Darwin City,705
+70510,Palmerston-East Arm,705
+70520,Litchfield Shire,705
+71005,Finniss,710
+71010,Bathurst-Melville,710
+71015,Alligator,710
+71020,Daly,710
+71025,East Arnhem,710
+71030,Lower Top End NT,710
+71035,Barkly,710
+71040,Central NT,710
+78501,Off-Shore Areas & Migratory,785
+80505,North Canberra,805
+80510,Belconnen,805
+80515,Woden Valley,805
+80525,Tuggeranong,805
+80535,South Canberra,805
+80540,Gungahlin-Hall,805
+81005,Australian Capital Territory - Bal,810

@@ -1,0 +1,129 @@
+
+SuperCHANNEL Utility v9.10.0.SUP-VW-JOB1-111-9a60feed39309cf5d91aea1d13396f91856cd004
+
+Parameters passed to snu:
+-source:jdbc:teradata://192.168.190.128
+-su:mortch
+-sp:<password suppressed>
+-ss:PRD_ADS_HWD_RETAILBANKING_DB
+-target:jdbc:sxv4:C:\data\retailbanking
+-create
+-insert
+-cleanaction:skip
+
+Loading error stream implementation: System.err
+Loading output stream implementation: System.out
+Loading source database implementation: str.database.DatabaseJDBCImp
+WARNING - Unable to load JDBC driver: str.jdbc.ddi.Driver
+Loading target database implementation: str.database.DatabaseJDBCImp
+Loading data channeler implementation: str.realtimechanneler.RealTimeChanneler
+Loading project file handler implementation: str.xmlprojectfilehandler.XMLHandler
+Connecting to source database jdbc:teradata://192.168.190.128
+Connecting to source database jdbc:teradata://192.168.190.128
+Time to connect: 0 second(s)
+Time to read source database metadata: 35 second(s)
+--      0hrs 1min 11sec
+Connecting to target database jdbc:sxv4:C:\data\retailbanking
+Connecting to target database jdbc:sxv4:C:\data\retailbanking
+Time to connect: 0 second(s)
+Time handling target database metadata: 0 second(s)
+--Updating registry tables
+--Fact: F_Customer
+--Fact: F_Account
+--Classification: C_Cal_Last_Tran_Year, Code, Name
+--Classification: C_Age, Code, Name
+--Classification: C_Fin_Year, Code, Name
+--Classification: C_Fin_Date_2, Code, Name
+--Classification: C_Fin_Date_1, Code, Name
+--Classification: C_Fin_Date_0, Code, Name
+--Classification: C_Age_Five_Group_1, Code, Name
+--Classification: C_Age_Ten_Group_1, Code, Name
+--Classification: C_Age_Group_0, Code, Name
+--Classification: C_Cal_Year, Code, Name
+--Classification: C_Cal_Date_2, Code, Name
+--Classification: C_Cal_Date_1, Code, Name
+--Classification: C_Cust_Mail_Indicator, Code, Name
+--Classification: C_Gender, Code, Name
+--Classification: C_WeekDay, Code, Name
+--Classification: C_Product_Type, Code, Name
+--Classification: C_Fin_Last_Tran_Year, Code, Name
+--Classification: C_Fin_Last_Tran_Date_2, Code, Name
+--Classification: C_Fin_Last_Tran_Date_1, Code, Name
+--Classification: C_Fin_Last_Tran_Date_0, Code, Name
+--Classification: C_Month, Code, Name
+--Classification: C_State, Code, Name
+--Classification: C_Geography_2, Code, Name
+--Classification: C_Geography_1, Code, Name
+--Classification: C_Geography_0, Code, Name
+--Classification: Company, Code, Name
+--Classification: C_Cal_Last_Tran_Date_2, Code, Name
+--Classification: C_Cal_Last_Tran_Date_1, Code, Name
+--Classification: C_Cal_Last_Tran_Date_0, Code, Name
+--Classification: C_Quarter, Code, Name
+--Classification: C_Cal_Date_0, Code, Name
+--Classification: C_Marital_Status, Code, Name
+--Classification: C_DayOfMonth, Code, Name
+--Classification: C_Week, Code, Name
+--Classification: C_Occupation, Code, Name
+--Measure: F_Customer, Cust_Profit
+--Measure: F_Account, Acc_Profit
+--Measure: F_Account, Avg_Acc_Balance
+--Count default table: F_Customer
+--Count default column:
+--Creating tables
+--Creating table C_Cal_Last_Tran_Year
+--Creating table C_Age
+--Creating table C_Fin_Year
+--Creating table C_Fin_Date_2
+--Creating table C_Fin_Date_1
+--Creating table C_Fin_Date_0
+--Creating table C_Age_Five_Group_1
+--Creating table C_Age_Ten_Group_1
+--Creating table C_Age_Group_0
+--Creating table C_Cal_Year
+--Creating table C_Cal_Date_2
+--Creating table C_Cal_Date_1
+--Creating table C_Cust_Mail_Indicator
+--Creating table C_Gender
+--Creating table C_WeekDay
+--Creating table C_Product_Type
+--Creating table C_Fin_Last_Tran_Year
+--Creating table C_Fin_Last_Tran_Date_2
+--Creating table C_Fin_Last_Tran_Date_1
+--Creating table C_Fin_Last_Tran_Date_0
+--Creating table C_Month
+--Creating table C_State
+--Creating table C_Geography_2
+--Creating table C_Geography_1
+--Creating table C_Geography_0
+--Creating table Company
+--Creating table C_Cal_Last_Tran_Date_2
+--Creating table C_Cal_Last_Tran_Date_1
+--Creating table C_Cal_Last_Tran_Date_0
+--Creating table C_Quarter
+--Creating table C_Cal_Date_0
+--Creating table C_Marital_Status
+--Creating table C_DayOfMonth
+--Creating table C_Week
+--Creating table C_Occupation
+--Creating table F_Customer
+--Creating table F_Account
+--Commiting changes to target database
+
+Build finished with cleansing actions taken
+str.channel.ChannelException: A database error occurred.
+Cause:
+        str.database.DatabaseException: An error occured while commiting changes to the database connection
+        Cause:
+                java.sql.SQLException: Key violation on add row.
+                SQLState: 23000
+
+Channel has abnormally ended.  Please see errors for details
+
+*** Caught Channel exception ***
+
+str.channel.ChannelException: A database error occurred.
+Cause:
+str.database.DatabaseException: An error occured while commiting changes to the database connection
+Cause:
+java.sql.SQLException: Key violation on add row.

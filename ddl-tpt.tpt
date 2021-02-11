@@ -1,0 +1,12 @@
+/* 
+Excute an SQL File with DDL DML
+Usage: tbuild -v .\ddl.jvar -f .\ddl-tpt.tpt
+*/
+
+DEFINE JOB executeSql
+DESCRIPTION 'Excute a SQL File with DDL/DML' ( 
+	STEP executeSql ( 
+		APPLY ('/**/')
+		TO OPERATOR ($DDL);
+	);
+);

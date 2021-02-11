@@ -1,0 +1,4 @@
+TargetTdpid = '192.168.190.128',
+TargetUserName = 'mortch',  
+TargetUserPassword  = 'mortch',  
+TargetWorkingDatabase = 'PRD_ADS_HWD_RETAILBANKING_DB',

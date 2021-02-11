@@ -1,0 +1,37 @@
+TABLENAME,COLUMNNAME,LABEL
+F_Account,Acc_Open_Date,Account Open Date (Date)
+F_Account,Acc_Open_Date_Cal,Account Open Calendar Date
+F_Account,Acc_Open_Date_DayofMonth,Account Open Day of Month
+F_Account,Acc_Open_Date_DayofWeek,Account Open Day of Week
+F_Account,Acc_Open_Date_Fin,Account Open Financial Date
+F_Account,Acc_Open_Date_Month,Account Open Month
+F_Account,Acc_Open_Date_Quarter,Account Open Quarter
+F_Account,Acc_Open_Date_Week,Account Open Week
+F_Account,Acc_Profit,Account Profit
+F_Account,Avg_Acc_Balance,Average Account Balance
+F_Account,Last_Transaction_Date,Last Transaction Date (Date)
+F_Account,Last_Transaction_Date_Cal,Last Transaction Calendar Date
+F_Account,Last_Transaction_Date_DayofMonth,Last Transaction Day of Month
+F_Account,Last_Transaction_Date_DayofWeek,Last Transaction Day of Week
+F_Account,Last_Transaction_Date_Fin,Last Transaction Financial Date
+F_Account,Last_Transaction_Date_Month,Last Transaction Month
+F_Account,Last_Transaction_Date_Quarter,Last Transaction Quarter
+F_Account,Last_Transaction_Date_Week,Last Transaction Week
+F_Account,PK_Acc_Key,Account Key (PK)
+F_Account,Product_Type,Product Type
+F_Customer,Age_Group,Age Groups
+F_Customer,Area,Postcode
+F_Customer,Birth_Date,Birth Date
+F_Customer,Company,Individual \ Company
+F_Customer,Cust_Mail_Ind,Customer Mail Indicator
+F_Customer,Cust_Open_Date,Customer Open Date (Date)
+F_Customer,Cust_Open_Date_Cal,Customer Open Calendar Date
+F_Customer,Cust_Open_Date_DayofMonth,Customer Open Day of Month
+F_Customer,Cust_Open_Date_DayofWeek,Customer Open Day of Week
+F_Customer,Cust_Open_Date_Fin,Customer Open Financial Date
+F_Customer,Cust_Open_Date_Month,Customer Open Month
+F_Customer,Cust_Open_Date_Quarter,Customer Open Quarter
+F_Customer,Cust_Open_Date_Week,Customer Open Week
+F_Customer,Cust_Profit,Customer Profit
+F_Customer,Marital_Status,Marital Status
+F_Customer,PK_Cust_Key,Customer Key (PK)

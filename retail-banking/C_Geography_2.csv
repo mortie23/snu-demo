@@ -1,0 +1,67 @@
+Code,Name,FK_State
+-1,Unknown,-1
+105,Sydney,1
+110,Hunter,1
+115,Illawarra,1
+120,Richmond-Tweed,1
+125,Mid-North Coast,1
+130,Northern,1
+135,North Western,1
+140,Central West,1
+145,South Eastern,1
+150,Murrumbidgee,1
+155,Murray,1
+160,Far West,1
+185,Off-Shore Areas & Migratory,1
+205,Melbourne,2
+210,Barwon,2
+215,Western District,2
+220,Central Highlands,2
+225,Wimmera,2
+230,Mallee,2
+235,Loddon,2
+240,Goulburn,2
+245,Ovens-Murray,2
+250,East Gippsland,2
+255,Gippsland,2
+285,Off-Shore Areas & Migratory,2
+305,Brisbane,3
+310,Moreton,3
+315,Wide Bay-Burnett,3
+320,Darling Downs,3
+325,South West,3
+330,Fitzroy,3
+335,Central West,3
+340,Mackay,3
+345,Northern,3
+350,Far North,3
+355,North West,3
+385,Off-Shore Areas & Migratory,3
+405,Adelaide,4
+410,Outer Adelaide,4
+415,Yorke and Lower North,4
+420,Murray Lands,4
+425,South East,4
+430,Eyre,4
+435,Northern,4
+485,Off-Shore Areas & Migratory,4
+505,Perth,5
+510,South West,5
+515,Lower Great Southern,5
+520,Upper Great Southern,5
+525,Midlands,5
+530,South Eastern,5
+535,Central,5
+540,Pilbara,5
+545,Kimberley,5
+585,Off-Shore Areas & Migratory,5
+605,Greater Hobart,6
+610,Southern,6
+615,Northern,6
+620,Mersey-Lyell,6
+685,Off-Shore Areas & Migratory,6
+705,Darwin,7
+710,Northern Territory - Bal,7
+785,Off-Shore Areas & Migratory,7
+805,Canberra,8
+810,Australian Capital Territory - Bal,8

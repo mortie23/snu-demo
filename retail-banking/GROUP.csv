@@ -1,0 +1,39 @@
+TYPE,DISPLAYNAME,TABLENAME,COLUMNNAME,PARENTNAME
+SUM,Customers,F_Customer,,
+SUM,Customer Profit,F_Customer,Cust_Profit,
+SUM,Accounts,F_Account,,
+SUM,Account Profit,F_Account,Acc_Profit,
+SUM,Average Account Balance,F_Account,Avg_Acc_Balance,
+TYPE,HIERARCHICAL,,,
+XGRP,Customers,,,
+XGRP,Accounts,,,
+XTB,Age,F_Customer,Age,Customers
+XTB,Age Groups,F_Customer,Age_Group,Customers
+XTB,Gender,F_Customer,Gender,Customers
+XTB,Marital Status,F_Customer,Marital_Status,Customers
+XTB,Occupation,F_Customer,Occupation,Customers
+XTB,Postcode,F_Customer,Area,Customers
+XTB,Customer Mail Indicator,F_Customer,Cust_Mail_Ind,Customers
+XTB,Individual \ Company,F_Customer,Company,Customers
+XTB,Customer Open Calendar Date,F_Customer,Cust_Open_Date_Cal,Customers
+XTB,Customer Open Financial Date,F_Customer,Cust_Open_Date_Fin,Customers
+XTB,Customer Open Quarter,F_Customer,Cust_Open_Date_Quarter,Customers
+XTB,Customer Open Month,F_Customer,Cust_Open_Date_Month,Customers
+XTB,Customer Open Week,F_Customer,Cust_Open_Date_Week,Customers
+XTB,Customer Open Day of Month,F_Customer,Cust_Open_Date_DayofMonth,Customers
+XTB,Customer Open Day of Week,F_Customer,Cust_Open_Date_DayofWeek,Customers
+XTB,Product Type,F_Account,Product_Type,Accounts
+XTB,Account Open Calendar Date,F_Account,Acc_Open_Date_Cal,Accounts
+XTB,Account Open Financial Date,F_Account,Acc_Open_Date_Fin,Accounts
+XTB,Account Open Quarter,F_Account,Acc_Open_Date_Quarter,Accounts
+XTB,Account Open Month,F_Account,Acc_Open_Date_Month,Accounts
+XTB,Account Open Week,F_Account,Acc_Open_Date_Week,Accounts
+XTB,Account Open Day of Month,F_Account,Acc_Open_Date_DayofMonth,Accounts
+XTB,Account Open Day of Week,F_Account,Acc_Open_Date_DayofWeek,Accounts
+XTB,Last Transaction Calendar Date,F_Account,Last_Transaction_Date_Cal,Accounts
+XTB,Last Transaction Financial Date,F_Account,Last_Transaction_Date_Fin,Accounts
+XTB,Last Transaction Quarter,F_Account,Last_Transaction_Date_Quarter,Accounts
+XTB,Last Transaction Month,F_Account,Last_Transaction_Date_Month,Accounts
+XTB,Last Transaction Week,F_Account,Last_Transaction_Date_Week,Accounts
+XTB,Last Transaction Day of Month,F_Account,Last_Transaction_Date_DayofMonth,Accounts
+XTB,Last Transaction Day of Week,F_Account,Last_Transaction_Date_DayofWeek,Accounts

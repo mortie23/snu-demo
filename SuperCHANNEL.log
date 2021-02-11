@@ -1,0 +1,121 @@
+
+SuperCHANNEL Utility v9.10.0.SUP-VW-JOB1-111-9a60feed39309cf5d91aea1d13396f91856cd004
+
+Parameters passed to snu: 
+-create
+-insert
+-sp:<password suppressed>
+Project_retailbanking.xml
+
+Loading error stream implementation: System.err
+Loading output stream implementation: System.out
+Loading source database implementation: str.database.DatabaseJDBCImp
+Loading target database implementation: str.database.DatabaseJDBCImp
+Loading data channeler implementation: str.realtimechanneler.RealTimeChanneler
+Loading project file handler implementation: str.xmlprojectfilehandler.XMLHandler
+Connecting to source database jdbc:teradata://192.168.190.128
+Time to connect: 0 second(s)
+Time to read source database metadata: 11 second(s)
+Connecting to target database jdbc:sxv4:C:\data\retailbanking
+Time to connect: 0 second(s)
+Time handling target database metadata: 0 second(s)
+ERROR 10:20:27:841 [main] XMLReader3_0 - Warning - TargetColumn.setCleansingAction: Column 'Age_Group': Cannot set cleansing action to ADD for a hierarchical classification reference: defaulting to SKIP.
+ERROR 10:20:27:843 [main] XMLReader3_0 - Warning - TargetColumn.setCleansingAction: Column 'Area': Cannot set cleansing action to ADD for a hierarchical classification reference: defaulting to SKIP.
+ERROR 10:20:27:843 [main] XMLReader3_0 - Warning - TargetColumn.setCleansingAction: Column 'FK_SD': Cannot set cleansing action to ADD for a hierarchical classification reference: defaulting to SKIP.
+ERROR 10:20:27:843 [main] XMLReader3_0 - Warning - TargetColumn.setCleansingAction: Column 'FK_SSD': Cannot set cleansing action to ADD for a hierarchical classification reference: defaulting to SKIP.
+--Updating registry tables
+--Fact: F_Customer
+--Fact: F_Account
+--Classification: Company, Code, Name
+--Classification: C_State, Code, Name
+--Classification: C_Product_Type, Code, Name
+--Classification: C_Occupation, Code, Name
+--Classification: C_Marital_Status, Code, Name
+--Classification: C_Geography_2, Code, Name
+--Classification: C_Geography_1, Code, Name
+--Classification: C_Geography_0, Code, Name
+--Classification: C_Gender, Code, Name
+--Classification: C_Cust_Mail_Indicator, Code, Name
+--Classification: C_Age_Ten_Group_1, Code, Name
+--Classification: C_Age_Five_Group_1, Code, Name
+--Classification: C_Age_Group_0, Code, Name
+--Classification: C_Age, Code, Name
+--Measure: F_Customer, Cust_Profit
+--Measure: F_Account, Acc_Profit
+--Measure: F_Account, Avg_Acc_Balance
+--Count default table: F_Customer
+--Count default column: 
+--Creating tables
+--Creating table Company
+--Creating table C_State
+--Creating table C_Product_Type
+--Creating table C_Occupation
+--Creating table C_Marital_Status
+--Creating table C_Geography_2
+--Creating table C_Geography_1
+--Creating table C_Geography_0
+--Creating table C_Gender
+--Creating table C_Cust_Mail_Indicator
+--Creating table C_Age_Ten_Group_1
+--Creating table C_Age_Five_Group_1
+--Creating table C_Age_Group_0
+--Creating table C_Age
+--Creating table F_Customer
+--Creating table F_Account
+--Commiting changes to target database
+--Started channelling from "Company"...
+-- channelled 2 rows (out of 2) successfully to "Company"
+--      0hrs 0min 0sec
+--Started channelling from "C_State"...
+-- channelled 9 rows (out of 9) successfully to "C_State"
+--      0hrs 0min 0sec
+--Started channelling from "C_Product_Type"...
+-- channelled 10 rows (out of 10) successfully to "C_Product_Type"
+--      0hrs 0min 0sec
+--Started channelling from "C_Occupation"...
+-- channelled 14 rows (out of 14) successfully to "C_Occupation"
+--      0hrs 0min 0sec
+--Started channelling from "C_Marital_Status"...
+-- channelled 5 rows (out of 5) successfully to "C_Marital_Status"
+--      0hrs 0min 0sec
+--Started channelling from "C_Geography_2"...
+-- channelled 66 rows (out of 66) successfully to "C_Geography_2"
+--      0hrs 0min 0sec
+--Started channelling from "C_Geography_1"...
+-- channelled 203 rows (out of 203) successfully to "C_Geography_1"
+--      0hrs 0min 0sec
+--Started channelling from "C_Geography_0"...
+-- channelled 2451 rows (out of 2451) successfully to "C_Geography_0"
+--      0hrs 0min 0sec
+--Started channelling from "C_Gender"...
+-- channelled 4 rows (out of 4) successfully to "C_Gender"
+--      0hrs 0min 0sec
+--Started channelling from "C_Cust_Mail_Indicator"...
+-- channelled 5 rows (out of 5) successfully to "C_Cust_Mail_Indicator"
+--      0hrs 0min 0sec
+--Started channelling from "C_Age_Ten_Group_1"...
+-- channelled 9 rows (out of 9) successfully to "C_Age_Ten_Group_1"
+--      0hrs 0min 0sec
+--Started channelling from "C_Age_Five_Group_1"...
+-- channelled 16 rows (out of 16) successfully to "C_Age_Five_Group_1"
+--      0hrs 0min 0sec
+--Started channelling from "C_Age_Group_0"...
+-- channelled 101 rows (out of 101) successfully to "C_Age_Group_0"
+--      0hrs 0min 0sec
+--Started channelling from "C_Age"...
+-- channelled 99 rows (out of 99) successfully to "C_Age"
+--      0hrs 0min 0sec
+--Commiting changes to target database
+--Started channelling from "F_Customer"...
+Using Batch Insertion for table: F_Customer
+-- channelled 269192 rows (out of 269192) successfully to "F_Customer"
+--      0hrs 0min 14sec
+--Started channelling from "F_Account"...
+Using Batch Insertion for table: F_Account
+-- channelled 454286 rows (out of 454286) successfully to "F_Account"
+--      0hrs 1min 2sec
+--Commiting changes to target database
+--0hrs 1min 17sec
+0 cleansing action(s)
+
+Build complete

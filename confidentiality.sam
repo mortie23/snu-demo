@@ -1,0 +1,80 @@
+####################################################################
+# ConfidentialityRule.sam: Sets one or more random rounding rules.
+# This macro sets up a method to apply one or more selected random rounding rules. 
+# The rules available are the same as those available in SuperCROSS via confid.ini,
+# ie 0-3 Rounding,Random Rounding,1-4 Rounding and Graduated Rounding 
+ 
+# SA Configuration Options: 
+# set RULESET in confidentialityrule.dll with any reasonable combinations from the following values:
+# NK(3,75)|FREQ(30)|0-3 Rounding|Random Rounding|1-4 Rounding|Graduated Rounding|THRESHOLD(300)
+# Each rule must be separated by | and the rules specified in the property will be executed 
+# in the same sequential order as in the property value string. 
+ 
+# NK(3,75) is a concealment rule based on top n contributors. 3 and 75 are configurable.
+# FREQ(30) is a concealment rule based on number of contributors. 30 is configurable.
+# THRESHOLD(300) is a concealment rule based on the value itself. 300 is configurable.
+# 0-3 Rounding,Random Rounding,1-4 Rounding and Graduated Rounding are existing rules in SX. 
+ 
+# Requirements:
+# confidentialityrule.dll must exist in same directory as scsa.exe
+ 
+# Removing methods in case they already exist
+method "3,75" remove increfs
+method F30 remove increfs
+method "0-3" remove increfs
+method RandomRounding remove increfs
+method "1-4" remove increfs
+method GraduatedRounding remove increfs
+method T300 remove increfs 
+ 
+# Adding methods
+method addmethod "3,75" mandatory "3,75 concealment rule"
+method "3,75" adddcplugin confrule confidentialityrule.dll
+method "3,75" confrule addproperty RULESET "NK(3,75)"
+method "3,75" confrule addproperty TOPN '3'
+method addmethod F30 mandatory "Conceal cells with fewer than 31 contributors"
+method F30 adddcplugin confrule confidentialityrule.dll
+method F30 confrule addproperty FREQ 'true'
+method F30 confrule addproperty RULESET "FREQ(30)"
+method addmethod "0-3" mandatory "Randomly round cell values between 0 and 3"
+method "0-3" adddcplugin confrule confidentialityrule.dll
+method "0-3" confrule addproperty RULESET "0-3 Rounding"
+method addmethod RandomRounding mandatory "Random Rounding"
+method RandomRounding adddcplugin confrule confidentialityrule.dll
+method RandomRounding confrule addproperty RULESET "Random Rounding"
+method addmethod "1-4" mandatory "Randomly round cell values between 1 and 4"
+method "1-4" adddcplugin confrule confidentialityrule.dll
+method "1-4" confrule addproperty RULESET "1-4 Rounding"
+method addmethod GraduatedRounding mandatory "Graduated Rounding"
+method GraduatedRounding adddcplugin confrule confidentialityrule.dll
+method GraduatedRounding confrule addproperty RULESET "Graduated Rounding"
+method addmethod T300 mandatory "Conceal cell values under 301"
+method T300 adddcplugin confrule confidentialityrule.dll
+method T300 confrule addproperty RULESET "THRESHOLD(300)"
+ 
+# Adding the Retail Banking database to the catalogue several times with different unique ids
+cat addfolder conf "Confidentiality Examples"
+cat conf adddb bank375 "Retail Banking - (3,75) concealment" databases/Retailbanking.sxv4 localhost
+ 
+cat conf adddb bankF30 "Retail Banking - concealment of cells with 30 or fewer contributors" databases/Retailbanking.sxv4 localhost
+cat conf adddb bank03 "Retail Banking - 0 to 3 Random Rounding" /databases/Retailbanking.sxv4 localhost
+cat conf adddb bankRR "Retail Banking - Random Rounding" databases/Retailbanking.sxv4 localhost
+cat conf adddb bank14 "Retail Banking - 1 to 4 Random Rounding" databases/Retailbanking.sxv4 localhost
+cat conf adddb bankGR "Retail Banking - Graduated Rounding" databases/Retailbanking.sxv4 localhost
+ 
+cat conf adddb bankT300 "Retail Banking - concealment of cells with values of 300 or less" databases/Retailbanking.sxv4 localhost 
+ 
+# Adding a method to each unique Retail Banking id
+cat bank375 addmethod "3,75"
+cat bankF30 addmethod "F30"
+cat bank03 addmethod "0-3"
+cat bankRR addmethod "RandomRounding"
+cat bank14 addmethod "1-4"
+cat bankGR addmethod "GraduatedRounding"
+cat bankT300 addmethod "T300"
+ 
+# Display all methods
+method
+ 
+# ConfidentialityRule.sam - macro finished
+#################################################

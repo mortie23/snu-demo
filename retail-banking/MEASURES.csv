@@ -1,0 +1,4 @@
+COLUMNNAME,TABLENAME
+Acc_Profit,F_Account
+Avg_Acc_Balance,F_Account
+Cust_Profit,F_Customer
