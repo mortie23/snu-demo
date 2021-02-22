@@ -1,4 +1,5 @@
 Code,Name,FK_State
+-2,bin,-2
 -1,Unknown,-1
 105,Sydney,1
 110,Hunter,1

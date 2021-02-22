@@ -1,2 +1,6 @@
 TABLENAME,COLUMNNAME,RULETYPE,RULEPARAM
 F_Customer,Cust_Mail_Ind,bin,N/A
+F_Customer,Age_Group,bin,-2
+F_Customer,Area,bin,-2
+C_Geography_0,FK_SSD,bin,-2
+C_Geography_1,FK_SD,bin,-2

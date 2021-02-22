@@ -1,2 +1,6 @@
 TABLENAME,COLUMNNAME,BINVALUE
 F_Customer,Cust_Mail_Ind,N/A
+F_Customer,Age_Group,-2
+F_Customer,Area,-2
+C_Geography_0,FK_SSD,-2
+C_Geography_1,FK_SD,-2
